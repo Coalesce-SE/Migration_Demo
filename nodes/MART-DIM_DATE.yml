@@ -29,7 +29,6 @@ operation:
         dataType: DATE
         defaultValue: ""
         description: ""
-        hashColumns: []
         isDate: true
         name: DATE_KEY
         nullable: true
@@ -47,7 +46,6 @@ operation:
         dataType: SMALLINT
         defaultValue: ""
         description: ""
-        hashColumns: []
         isYear: true
         name: YEAR
         nullable: true
@@ -65,7 +63,6 @@ operation:
         dataType: SMALLINT
         defaultValue: ""
         description: ""
-        hashColumns: []
         isMonth: true
         name: MONTH
         nullable: true
@@ -83,7 +80,6 @@ operation:
         dataType: CHAR(3)
         defaultValue: ""
         description: ""
-        hashColumns: []
         isMonthName: true
         name: MONTH_NAME
         nullable: true
@@ -101,7 +97,6 @@ operation:
         dataType: SMALLINT
         defaultValue: ""
         description: ""
-        hashColumns: []
         isDayOfMonth: true
         name: DAY_OF_MONTH
         nullable: true
@@ -119,7 +114,6 @@ operation:
         dataType: VARCHAR(9)
         defaultValue: ""
         description: ""
-        hashColumns: []
         isDayOfWeek: true
         name: DAY_OF_WEEK
         nullable: true
@@ -137,7 +131,6 @@ operation:
         dataType: SMALLINT
         defaultValue: ""
         description: ""
-        hashColumns: []
         isWeekOfYear: true
         name: WEEK_OF_YEAR
         nullable: true
@@ -155,7 +148,6 @@ operation:
         dataType: SMALLINT
         defaultValue: ""
         description: ""
-        hashColumns: []
         isYearColumn: true
         name: DAY_OF_YEAR
         nullable: true
@@ -178,4 +170,5 @@ operation:
   schema: ""
   sqlType: "26"
   type: sql
+  version: 1
 type: Node

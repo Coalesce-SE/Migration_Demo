@@ -94,7 +94,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_ORDERKEY
         nullable: false
@@ -110,7 +109,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_PARTKEY
         nullable: false
@@ -126,7 +124,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_SUPPKEY
         nullable: false
@@ -142,7 +139,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: ORDER_ORDERKEY
         nullable: false
@@ -158,7 +154,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_LINENUMBER
         nullable: false
@@ -174,7 +169,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: ORDER_CUSTKEY
         nullable: false
@@ -190,7 +184,6 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_QUANTITY
         nullable: false
@@ -206,7 +199,6 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_DISCOUNT
         nullable: false
@@ -222,7 +214,6 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_TAX
         nullable: false
@@ -238,7 +229,6 @@ operation:
         config: {}
         dataType: DATE
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_SHIPDATE
         nullable: false
@@ -254,7 +244,6 @@ operation:
         config: {}
         dataType: DATE
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_COMMITDATE
         nullable: false
@@ -270,7 +259,6 @@ operation:
         config: {}
         dataType: DATE
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_RECEIPTDATE
         nullable: false
@@ -286,7 +274,6 @@ operation:
         config: {}
         dataType: DATE
         description: ""
-        hashColumns: []
         hashDetails: null
         name: ORDER_ORDERDATE
         nullable: false
@@ -302,7 +289,6 @@ operation:
         config: {}
         dataType: NUMBER
         description: Calculated column that counts total orders, not lines in orders
-        hashColumns: []
         hashDetails: null
         name: CALC_ORDER_COUNT
         nullable: true
@@ -318,7 +304,6 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: Calculated column that only displays total price once per order
-        hashColumns: []
         hashDetails: null
         name: CALC_ORDER_TOTAL_PRICE
         nullable: false
@@ -334,7 +319,6 @@ operation:
         config: {}
         dataType: NUMBER
         description: Calculated column used for analytucs tools that require a factless fact
-        hashColumns: []
         hashDetails: null
         name: CALC_COUNT
         nullable: true
@@ -350,7 +334,6 @@ operation:
         config: {}
         dataType: NUMBER
         description: Calculated column that displays days to ship
-        hashColumns: []
         hashDetails: null
         name: CALC_DAYS_TO_SHIP
         nullable: true

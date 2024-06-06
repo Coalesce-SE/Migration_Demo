@@ -21,7 +21,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: REGION_REGIONKEY
         nullable: false
@@ -37,7 +36,6 @@ operation:
         config: {}
         dataType: VARCHAR(25)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: REGION_NAME
         nullable: false
@@ -64,4 +62,5 @@ operation:
   schema: ""
   sqlType: View
   type: sql
+  version: 1
 type: Node

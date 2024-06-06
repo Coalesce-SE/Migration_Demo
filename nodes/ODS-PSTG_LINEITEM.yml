@@ -26,7 +26,6 @@ operation:
         dataType: NUMBER
         defaultValue: ""
         description: ""
-        hashColumns: []
         isSurrogateKey: true
         name: PSTG_LINEITEM_KEY
         nullable: true
@@ -40,7 +39,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         isBusinessKey: true
         name: LINEITEM_ORDERKEY
@@ -57,7 +55,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_PARTKEY
         nullable: false
@@ -73,7 +70,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_SUPPKEY
         nullable: false
@@ -89,7 +85,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         isBusinessKey: true
         name: LINEITEM_LINENUMBER
@@ -106,7 +101,6 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_QUANTITY
         nullable: false
@@ -122,7 +116,6 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_DISCOUNT
         nullable: false
@@ -138,7 +131,6 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_TAX
         nullable: false
@@ -154,7 +146,6 @@ operation:
         config: {}
         dataType: VARCHAR(1)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_RETURNFLAG
         nullable: false
@@ -170,7 +161,6 @@ operation:
         config: {}
         dataType: VARCHAR(1)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_LINESTATUS
         nullable: false
@@ -186,7 +176,6 @@ operation:
         config: {}
         dataType: DATE
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_SHIPDATE
         nullable: false
@@ -202,7 +191,6 @@ operation:
         config: {}
         dataType: DATE
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_COMMITDATE
         nullable: false
@@ -218,7 +206,6 @@ operation:
         config: {}
         dataType: DATE
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_RECEIPTDATE
         nullable: false
@@ -234,7 +221,6 @@ operation:
         config: {}
         dataType: VARCHAR(25)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_SHIPINSTRUCT
         nullable: false
@@ -250,7 +236,6 @@ operation:
         config: {}
         dataType: VARCHAR(10)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_SHIPMODE
         nullable: false
@@ -266,7 +251,6 @@ operation:
         config: {}
         dataType: VARCHAR(44)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: LINEITEM_COMMENT
         nullable: false
@@ -286,7 +270,6 @@ operation:
         dataType: NUMBER
         defaultValue: ""
         description: ""
-        hashColumns: []
         isSystemVersion: true
         name: SYSTEM_VERSION
         nullable: true
@@ -304,7 +287,6 @@ operation:
         dataType: VARCHAR
         defaultValue: ""
         description: ""
-        hashColumns: []
         isSystemCurrentFlag: true
         name: SYSTEM_CURRENT_FLAG
         nullable: true
@@ -322,7 +304,6 @@ operation:
         dataType: TIMESTAMP
         defaultValue: ""
         description: ""
-        hashColumns: []
         isSystemStartDate: true
         name: SYSTEM_START_DATE
         nullable: true
@@ -340,7 +321,6 @@ operation:
         dataType: TIMESTAMP
         defaultValue: ""
         description: ""
-        hashColumns: []
         isSystemEndDate: true
         name: SYSTEM_END_DATE
         nullable: true
@@ -358,7 +338,6 @@ operation:
         dataType: TIMESTAMP
         defaultValue: ""
         description: ""
-        hashColumns: []
         isSystemCreateDate: true
         name: SYSTEM_CREATE_DATE
         nullable: true
@@ -376,7 +355,6 @@ operation:
         dataType: TIMESTAMP
         defaultValue: ""
         description: ""
-        hashColumns: []
         isSystemUpdateDate: true
         name: SYSTEM_UPDATE_DATE
         nullable: true
@@ -401,4 +379,5 @@ operation:
   schema: ""
   sqlType: persistentStage
   type: sql
+  version: 1
 type: Node

@@ -21,7 +21,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: CUSTOMER_CUSTKEY
         nullable: false
@@ -37,7 +36,6 @@ operation:
         config: {}
         dataType: VARCHAR(25)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: CUSTOMER_NAME
         nullable: false
@@ -53,7 +51,6 @@ operation:
         config: {}
         dataType: VARCHAR(40)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: CUSTOMER_ADDRESS
         nullable: false
@@ -69,7 +66,6 @@ operation:
         config: {}
         dataType: NUMBER(38,0)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: CUSTOMER_NATIONKEY
         nullable: false
@@ -85,7 +81,6 @@ operation:
         config: {}
         dataType: VARCHAR(15)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: CUSTOMER_PHONE
         nullable: false
@@ -101,7 +96,6 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: CUSTOMER_ACCTBAL
         nullable: false
@@ -117,7 +111,6 @@ operation:
         config: {}
         dataType: VARCHAR(10)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: CUSTOMER_MKTSEGMENT
         nullable: true
@@ -133,7 +126,6 @@ operation:
         config: {}
         dataType: VARCHAR(117)
         description: ""
-        hashColumns: []
         hashDetails: null
         name: CUSTOMER_COMMENT
         nullable: true
